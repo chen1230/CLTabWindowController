@@ -1,0 +1,6 @@
+use_frameworks!
+target 'CLTabWindowController_Tests' do
+  pod 'CLTabWindowController', :path => '../'
+  
+  
+end
