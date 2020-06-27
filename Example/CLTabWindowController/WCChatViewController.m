@@ -14,9 +14,27 @@
 
 @implementation WCChatViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do view setup here.
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        [self reLoadView];
+    }
+    return self;
 }
+
+- (void)reLoadView{
+    
+}
+
+- (void)viewWillAppear {
+    [super viewWillAppear];
+    self.view.autoresizingMask = NSViewMinXMargin | NSViewWidthSizable |  NSViewMinYMargin | NSViewHeightSizable | NSViewMaxYMargin;
+
+    self.view.wantsLayer = YES;
+    self.view.layer.backgroundColor = [NSColor yellowColor].CGColor;
+}
+
+
 
 @end

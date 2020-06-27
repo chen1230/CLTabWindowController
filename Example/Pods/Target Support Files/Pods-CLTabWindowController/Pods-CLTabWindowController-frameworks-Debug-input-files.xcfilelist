@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-CLTabWindowController/Pods-CLTabWindowController-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CLTabWindowController/CLTabWindowController.framework
+${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/SVGKit/SVGKit.framework

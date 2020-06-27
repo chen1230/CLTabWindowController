@@ -1,6 +1,6 @@
 use_frameworks!
-target 'CLTabWindowController_Tests' do
+target 'CLTabWindowController' do
   pod 'CLTabWindowController', :path => '../'
-  
+  pod 'SVGKit'
   
 end

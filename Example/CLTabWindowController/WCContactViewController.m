@@ -14,9 +14,11 @@
 
 @implementation WCContactViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do view setup here.
+- (void)viewWillAppear {
+    [super viewWillAppear];
+    self.view.wantsLayer = YES;
+    self.view.layer.backgroundColor = _bgColor?_bgColor.CGColor:[NSColor redColor].CGColor;
+    self.view.autoresizingMask = NSViewMinXMargin | NSViewWidthSizable | NSViewMaxXMargin | NSViewMinYMargin | NSViewHeightSizable | NSViewMaxYMargin;
 }
 
 @end

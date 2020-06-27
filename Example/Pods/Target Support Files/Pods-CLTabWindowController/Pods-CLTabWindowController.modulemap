@@ -1,0 +1,6 @@
+framework module Pods_CLTabWindowController {
+  umbrella header "Pods-CLTabWindowController-umbrella.h"
+
+  export *
+  module * { export * }
+}

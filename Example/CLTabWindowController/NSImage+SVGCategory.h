@@ -11,6 +11,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSImage (SVGCategory)
++ (NSImage *)svgImageNamed:(NSString *)name size:(CGSize)size;
+
++ (NSImage *)svgNamed:(NSString *)svgNamed cgColor:(CGColorRef)cgColor;
+
++ (NSImage *)svgNamed:(NSString *)svgNamed cgColor:(CGColorRef)cgColor identifier:(NSString *)identifier;
 
 @end
 

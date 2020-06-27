@@ -1,0 +1,33 @@
+PODS:
+  - CLTabWindowController (0.1.0):
+    - Masonry
+  - CocoaLumberjack (3.6.1):
+    - CocoaLumberjack/Core (= 3.6.1)
+  - CocoaLumberjack/Core (3.6.1)
+  - Masonry (1.1.0)
+  - SVGKit (2.1.1):
+    - CocoaLumberjack (~> 3.0)
+
+DEPENDENCIES:
+  - CLTabWindowController (from `../`)
+  - SVGKit
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
+    - Masonry
+    - SVGKit
+
+EXTERNAL SOURCES:
+  CLTabWindowController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CLTabWindowController: 3eed46d33e865c10cf99a189de1101389dc59f81
+  CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SVGKit: 652cdf7bef8bec8564d04a8511d3ab50c7595fac
+
+PODFILE CHECKSUM: a8eaf7c2e8e6b5a42d0c56184ddbf655f454c81f
+
+COCOAPODS: 1.9.2

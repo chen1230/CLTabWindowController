@@ -14,10 +14,24 @@
 
 @implementation CLFolderWindowController
 
+
+- (instancetype)init
+{
+    self = [super initWithWindowNibName:NSStringFromClass([self class])];
+    if (self) {
+        
+    }
+    return self;
+}
+
 - (void)windowDidLoad {
     [super windowDidLoad];
-    
-    // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
+    self.window.title = @"CLFolderWindowController";
+    NSLog(@"windowDidLoad CLFolderWindowController");
+}
+
+- (void)dealloc {
+    NSLog(@"%@ dealloc",NSStringFromClass([self class]));
 }
 
 @end

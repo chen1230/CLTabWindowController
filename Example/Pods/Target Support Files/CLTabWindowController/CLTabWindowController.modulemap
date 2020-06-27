@@ -1,0 +1,6 @@
+framework module CLTabWindowController {
+  umbrella header "CLTabWindowController-umbrella.h"
+
+  export *
+  module * { export * }
+}

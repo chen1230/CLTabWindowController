@@ -11,6 +11,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CLCustomClass : NSObject
+@property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) id obj;
 
 @end
 
