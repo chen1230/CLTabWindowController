@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'CLTabWindowController/Classes/**/*'
   
    s.resource_bundles = {
-     'CLTabWindowController' => ['CLTabWindowController/Assets/*']
+     
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
